@@ -1,0 +1,29 @@
+{
+  "identifier" : "overcast",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "overcast_pro_unlock",
+      "localizations" : [
+        {
+          "description" : "Unlocks unlimited weather-mood log entries",
+          "displayName" : "Overcast Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "overcast_pro_unlock",
+      "referenceName" : "Overcast Pro Unlock",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
