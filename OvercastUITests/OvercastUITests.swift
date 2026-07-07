@@ -53,7 +53,7 @@ final class OvercastUITests: XCTestCase {
         XCTAssertTrue(menu.waitForExistence(timeout: 5))
         menu.tap()
         app.buttons["Delete"].tap()
-        let confirmDelete = app.buttons["Delete"].lastMatch
+        let confirmDelete = app.buttons.matching(identifier: "Delete").lastMatch
         if confirmDelete.waitForExistence(timeout: 3) {
             confirmDelete.tap()
         }
