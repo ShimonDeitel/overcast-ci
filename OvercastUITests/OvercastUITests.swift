@@ -6,6 +6,7 @@ final class OvercastUITests: XCTestCase {
     override func setUpWithError() throws {
         continueAfterFailure = false
         app = XCUIApplication()
+        app.launchArguments = ["-uiTestReset"]
         app.launch()
     }
 
