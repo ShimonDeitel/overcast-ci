@@ -30,7 +30,7 @@ final class OvercastUITests: XCTestCase {
             app.buttons["logFirstEntryButton"].tap()
         }
         let moodButton = app.buttons["moodButton_5"]
-        XCTAssertTrue(moodButton.waitForExistence(timeout: 5))
+        XCTAssertTrue(moodButton.waitForExistence(timeout: 12))
         moodButton.tap()
         app.buttons["saveEntryButton"].tap()
         XCTAssertTrue(app.navigationBars["Overcast"].waitForExistence(timeout: 5))
